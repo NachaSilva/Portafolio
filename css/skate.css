@@ -267,10 +267,6 @@ margin-bottom: 2em;}
     background-size: cover;
 }
 
-.lowvideo{
-    
-}
-
 .parameters{
     max-width: 1000px;
     height:300px;
@@ -297,6 +293,7 @@ margin-bottom: 2em;}
         margin: auto;
         display: block;
 }
+
 
 /*carrusel*/
 
@@ -389,10 +386,19 @@ margin-bottom: 2em;}
 }
 /* fin carrusel*/
 
+.footer{
+text-align: center;
+color: var(--blanco);
+}
+
 @media only screen and (max-width: 768px){
     .summary__description{
         padding-right: 10px;
         padding-left: 10px;
+    }
+    .imagensize{
+        background-repeat: no-repeat;
+            max-width: 800px;
     }
 }
 
@@ -405,5 +411,21 @@ margin-bottom: 2em;}
     }
     .summary{
         margin-top: 240px;
+    }
+    .imagensize{
+        background-repeat: no-repeat;
+            max-width: 400px;
+    }
+    .research{
+        margin-top: 50em;}
+    .contenedoroverview{
+        margin-top: 20em;
+    }
+    .listado{
+        margin-top: 20em;
+    }
+    .containerLowProtoype{
+        margin-top: 5em; 
+        
     }
 }
