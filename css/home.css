@@ -20,6 +20,11 @@ html {
     box-sizing: inherit;
 }
 
+#canvas{
+    width: 100%;
+    height: 100%;
+}
+
 body{
     font-size: 1.6rem;
     background-color: var(--negro);
@@ -58,8 +63,6 @@ h3{
 h4{
     font-size: 2.8rem;
 }
-
-
 
 p{
     color: var(--blanco);
@@ -103,6 +106,8 @@ p{
     }
 }
 
+
+
 .navegacion__enlace{
     display: block;
     text-align: center;
@@ -121,8 +126,13 @@ p{
     
 }
 
-.lista-ir{
+.lista__ir{
     list-style-type: none;
+    cursor: pointer;
+}
+
+.lista__ir:hover{
+    color: var(--verde);
 }
 
 .titulo-home{
@@ -131,9 +141,9 @@ p{
     margin-left: 30%;
 }
 
-.titulo-descripcion{
+.profesion{
     font-weight: 400;
-    margin-left: 30%;
+    margin-left: 16%;
     line-height: 0;    
 }
 
@@ -150,6 +160,7 @@ p{
 .colordistinto-titulo{
     color: var(--verde);
 }
+
 
 @media only screen and (max-width: 600px){
     .titulo-descripcion{
@@ -171,4 +182,26 @@ p{
     color: var(--blanco);
     padding-bottom: 3rem;
     margin-top: 20rem;
+}
+
+@media only screen and (min-width: 2000px){
+    h1 {
+        font-size: 7rem;
+    }
+    h2{
+        font-size: 12rem;
+    }
+    h3{
+        font-size: 8rem;
+    }
+    .navegacion__enlace{
+    font-size: 5rem;
+   }
+   .lista__ir{
+    font-size: 3rem;
+   }
+   .footer{
+    font-size: 2.5rem;
+    margin-top: 35rem;
+   }
 }
