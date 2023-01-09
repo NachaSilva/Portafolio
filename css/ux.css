@@ -142,7 +142,7 @@ p{
 }
 
 .uno{
-    background: url(../img/savegorillas.png); 
+    background: url(../img/sk1logo.png); 
     margin-right: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,7 +150,7 @@ p{
 }
 
 .dos{
-    background: url(../img/sk1logo.png);
+    background: url(../img/savegorillas.png);
     margin-left: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,7 +266,7 @@ p{
     }
 }
 
-@media(min-width: 1800px){
+@media(min-width: 2000px){
     .container, .contenidoPrincipaldos {
         max-width: 1000px;
         height:350px;
