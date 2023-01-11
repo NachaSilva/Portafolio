@@ -148,9 +148,6 @@ p{
 
 .grid-flow{
     display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     place-items:  center;
     
 }
@@ -182,6 +179,23 @@ p{
         display: flex;
         gap: 2rem;
     }
+    .grid-flow{
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+    }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 700px) {
+    .grid-flow{
+        grid-auto-flow: row;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        
+    }
+        
 }
 
 .navegacion__enlace{
@@ -196,8 +210,15 @@ p{
     color: var(--verde);
 }
 
+
+
+
 .footer{
     text-align: center;
     color: var(--blanco);
    
+}
+
+@media screen and (max-width: 767){
+    
 }
