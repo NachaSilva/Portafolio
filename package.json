@@ -1,0 +1,27 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "portafolio personal",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "serve ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachaSilva/Portafolio.git"
+  },
+  "keywords": [
+    "ux",
+    "ui"
+  ],
+  "author": "Ignacia Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachaSilva/Portafolio/issues"
+  },
+  "homepage": "https://github.com/NachaSilva/Portafolio#readme",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
