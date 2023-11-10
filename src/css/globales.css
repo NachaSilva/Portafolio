@@ -1,0 +1,113 @@
+:root{
+    --blanco: #ffffff;
+    --verde: #53BB84;
+    --negro: #3C3C3C;
+    --fuenteLogo: 'Inspiration'; 
+    --fuenteHeading: 'Barlow Condensed';
+    --fuentemenu: 'Roboto';
+    --fuenteHead: 'Open Sans'
+
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+    background-color: var(--negro);
+}
+.contenedor{
+    max-width: 120rem;
+    width: 94%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+    color: var(--blanco);
+    font-family: var(--fuenteHeading);
+}
+.barra{
+    padding: 4rem 6rem;
+}
+.logo__nombre{
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    color: var(--verde);
+    font-family: var(--fuenteLogo);
+    font-size: 6.5rem;
+}
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--blanco);
+    font-family: var(--fuentemenu);
+}
+
+.navegacion__enlace:hover{
+    color: var(--verde);
+}
+.logo__bold{
+    font-weight: 700;
+    color: var(--verde);
+}
+.footer{
+    text-align: center;
+    color: var(--blanco);
+    padding: 3rem 0;
+    }
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+}
+@media (min-width: 1200px) {
+    .barra {
+        padding: 4rem 20rem;
+    }
+}
+
+/* UX GLOBALES */
+.colordistinto-titulo{
+    color: var(--verde);
+}
+.Principal-titulo{
+    text-align: center;  
+}
+.Principal-titulodos{
+    text-align: center;
+}
+
+.Principal-titulo{
+    margin-bottom: 0;
+}
+.Principal-titulodos {
+    margin-top: 1rem;
+    margin-bottom: 1.67em;
+}
+@media (min-width: 768px){
+
+}
