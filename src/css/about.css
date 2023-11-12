@@ -1,14 +1,14 @@
 h1 {
-    font-size: 4.8rem;
+    font-size: 4.8rem !important;
 }
 
 h2{
-    font-size: 9rem;
-    font-weight: 400;
+    font-size: 9rem !important;
+    font-weight: 400 !important;
 }
 
 h4{
-    font-size: 2.8rem;
+    font-size: 2.8rem !important;
 }
 .profesion{
     font-size: 3.2rem;
@@ -81,12 +81,12 @@ h4{
    } 
     
     h2{
-        font-size: 6rem;
-        font-weight: 400;
+        font-size: 6rem !important;
+        font-weight: 400 !important;
     }
     h3{
-        font-size: 3rem;
-        font-weight: 400;
+        font-size: 3rem !important;
+        font-weight: 400 !important;
     }
     .box .imgBx img{
         width: 100%; 
@@ -99,7 +99,7 @@ h4{
         bottom: 3rem;
     }
     .box .content p {
-        font-size: 3rem;
+        font-size: 3rem !important;
         margin-bottom: 2rem;
     }
     .boton{
