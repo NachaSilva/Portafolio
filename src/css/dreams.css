@@ -129,26 +129,6 @@
     text-align: center;
 }
 
-.imagenpersona{
-    background-repeat: no-repeat;
-    max-width: 700px;
-    display: block;
-    margin: auto;
-    display: block;
-
-}
-
-.contenidoPersona{
-display: flex;
-width: 100%;
-}
-
-.contenidotitulo{
-text-align: center;
-font-size: 5rem;
-text-decoration: underline;
-}
-
 .containerLowProtoype{
     max-width: 1000px;
     height:350px;
@@ -158,26 +138,6 @@ text-decoration: underline;
     background-color: #53BB84;
 }
 
-.lowPrototype__principal{
-    display: flex;
-    width: 100%;
-}
 
-.lowPrototype__proyecto{
-    display: flex;
-    font-size: 20px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.lowtext{
-    text-align: center;
-}
 
-.lowimg{
-    background: url(../img/lowdreams.png);
-    margin-left: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}

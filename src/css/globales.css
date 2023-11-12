@@ -185,6 +185,10 @@ p{
      .imagenpersona{
         max-width: 80%; 
        }
+       .video{
+        width: 500px !important;
+        height: 500px !important;
+       }
 }
 
 .lowPrototype__proyecto{
