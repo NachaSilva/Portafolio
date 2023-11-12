@@ -1,50 +1,5 @@
-:root{
-    --blanco: #ffffff;
-    --verde: #53BB84;
-    --negro: #3C3C3C;
-    --fuenteLogo: 'Inspiration'; 
-    --fuenteHeading: 'Barlow Condensed';
-    --fuentemenu: 'Roboto';
-    --fuenteHead: 'Open Sans'
-  
-  }
-  
-  html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  body{
-    font-size: 1.6rem;
-    background-color: var(--negro);
-  }
-  
-  /*Globales*/
-  
-  .contenedor{
-    max-width: 120rem;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  a{
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  h1,
-  h2,
-  h3{
-    color: var(--blanco);
-    font-family: var(--fuenteHeading);
-  }
-  
+/* @import 'bootstrap/dist/css/bootstrap.min.css';  */
+
   h1 {
     font-size: 4.8rem;
   }
@@ -58,67 +13,11 @@
   h4{
     font-size: 2.8rem;
   }
-  
-  
-  
-  p{
-    color: var(--blanco);
-    font-family: var(--fuenteHeading);
-  }
-  
-  .logo{
-    color: var(--negro);
-    line-height: 2;
-  }
-  
-  .logo__nombre{
-    font-weight: 400;
-    margin: 0;
-    text-align: center;
-    color: var(--verde);
-    font-family: var(--fuenteLogo);
-  }
-  
-  .logo__bold{
-    font-weight: 700;
-    color: var(--verde);
-  }
-  
-  .barra{
-    padding: 4rem;
-  }
-  
-  @media (min-width: 768px) {
-    .barra {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-  }
-  
-  @media(min-width: 768px) {
-    .navegacion{
-        display: flex;
-        gap: 2rem;
-    }
-  }
-  
-  .navegacion__enlace{
-    display: block;
-    text-align: center;
-    font-size: 1.8rem;
-    color: var(--blanco);
-    font-family: var(--fuentemenu);
-  }
-  
-  .navegacion__enlace:hover{
-    color: var(--verde);
-  }
-  
+
   
   .image {
     position: relative;
-    width: 400px;
+    /* width: 400px; */
     padding: 1rem;
   }
   
@@ -163,12 +62,12 @@
   }
   
   .image__title{
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
   }
   
   .image__description{
-    font-size: 1.25em;
+    font-size: 1.50em;
     margin-top: 0.25em;
   }
   
@@ -176,8 +75,6 @@
     display: grid;
     place-items:  center;
     grid-auto-flow: row;
-    
-    
   }
   
   .button{
@@ -185,6 +82,8 @@
     border: none;
     text-align: center;
     border-radius: 8px;
+    height: 4rem;
+    width: 33rem;
   
   }
   
@@ -194,7 +93,15 @@
     background-color: var(--verde);
   }
   
-  .footer{
-    text-align: center;
-    color: var(--blanco);
-    }  
+  @media(min-width: 768px) {
+    .grid-flow {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 4rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .grid-flow {
+      margin: 0 20rem;
+    }
+  }
