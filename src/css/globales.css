@@ -22,6 +22,24 @@ body{
     font-size: 1.6rem;
     background-color: var(--negro);
 }
+h1 {
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+
+p{
+    font-size: 2rem;  
+}
+
 .contenedor{
     max-width: 120rem;
     width: 94%;
@@ -150,9 +168,14 @@ p{
     }
     .contenedorpain__bloques{
         display: flex;
+        justify-content: center;
     }
     .imagenpersona{
      max-width: 700px; 
+    }
+    .video{
+        width: 500px;
+        height: 400px;
     }
 }
 @media (min-width: 1200px){
@@ -162,4 +185,20 @@ p{
      .imagenpersona{
         max-width: 80%; 
        }
+}
+
+.lowPrototype__proyecto{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.video{
+   width: 300px;
+   height: 400px; 
+}
+.diviconsTitle{
+    display: flex;
+    margin-top: 15px;
 }

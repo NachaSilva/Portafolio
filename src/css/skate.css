@@ -1,30 +1,10 @@
 
-h1 {
-    font-size: 6rem;
-}
-
-h2{
-    font-size: 3rem;
-}
-h3{
-    font-size: 3.2rem;
-}
-h4{
-    font-size: 2.8rem;
-}
-
-p{
-    font-size: 2rem;  
-}
 .summary__titulo{
     text-align: center;
     font-size: 5rem;
     font-weight: 400;
 }
-.diviconsTitle{
-    display: flex;
-    margin-top: 15px;
-}
+
 
 /*carrusel*/
 
@@ -117,78 +97,4 @@ p{
 }
 /* fin carrusel*/
 
-.lowPrototype__proyecto{
-    display: flex;
-    font-size: 20px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-}
-.video{
-   width: 300px;
-   height: 400px; 
-}
 
-
-@media only screen and (max-width: 600px){
-    
-}
-@media only screen and (min-width: 768px){
-    .video{
-        width: 500px;
-        height: 400px;
-    }
-  
-    
-}
-@media(min-width: 1200px){}
-/* 
-
-
-
-
-
-
-.summary__description{
-    font-size: 2.3rem;
-    text-align: justify;
-}
-
-
-
-
-.contenidoPersona{
-    display: flex;
-    width: 100%;
-}
-
-
-.lowimg{
-    background: url(../img/lowskate.png);
-    margin-left: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-
-
-
-/* @media only screen and (max-width: 768px){
-    .summary__description{
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-} */
-
-/* @media  (max-width: 600px){ */
-    /* 
-    .contenedoroverview-segundo{
-        margin-top: 350px;
-    }
-    .summary{
-        margin-top: 240px;
-    }
- 
