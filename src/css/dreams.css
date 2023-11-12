@@ -17,41 +17,6 @@ p{
     font-size: 2rem;  
 }
 
-
-.contenedoroverview{
-    max-width: 1000px;
-    height:300px;
-    margin: 0 auto;
-    margin-top: 2em;
-    margin-bottom: 2em;}
-
- .titulooverview{
-        text-align: center;
-        font-size: 5rem;
-        text-decoration: underline;
-        font-weight: 400;
-    }
-.titulooverview__description{
-        font-size: 2.3rem;
-        text-align: justify;
-    }
-
-.bloques{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
-        
-    }
-
-.bloque{
-        text-align: center;
-    
-    }
-
-.bloque__titulo{
-        margin: 0;
-    }
-
 .research{
         max-width: 1000px;
         height:300px;
@@ -196,16 +161,6 @@ display: flex;
 width: 100%;
 }
 
-.contenidoPersona-persona{
-display: flex;
-font-size: 20px;
-width: 100%;
-align-items: center;
-justify-content: space-around;
-transition: .3s;
-
-
-}
 .contenidotitulo{
 text-align: center;
 font-size: 5rem;
@@ -243,9 +198,4 @@ text-decoration: underline;
     margin-left: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.contenedorpain__bloques{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
 }
