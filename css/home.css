@@ -1,0 +1,94 @@
+h1 {
+    font-size: 4.8rem !important;
+}
+
+h2{
+    font-size: 9rem !important;
+}
+h3{
+    font-size: 3.2rem !important;
+}
+h4{
+    font-size: 2.8rem !important;
+}
+
+.lista{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.lista__ir{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.lista__ir:hover{
+    color: var(--verde);
+}
+
+.titulo-home{
+line-height: 7rem;
+font-weight: 400;
+margin-left: 25%;
+}
+.profesion{
+    font-weight: 400;
+    margin-left: 13%;
+    line-height: 0;    
+}
+
+.lista{
+    margin-left: 27.4%;
+    font-size: 2rem;
+}
+
+.colordistinto{
+    color: var(--verde);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+    .titulo-descripcion{
+        width: 500px;
+        overflow-wrap: break-word;  
+        word-wrap: break-word; 
+        word-break: break-word;
+        font-size: 2.5rem;
+        margin-left: 10%;
+    }
+
+    .lista{
+        margin-left: 20%;
+    }
+    .titulo-home {
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 765px){
+    .titulo-home{
+    margin-left: 30%;
+}
+.profesion{
+margin-left: 16%;
+}
+}
+
+@media only screen and (min-width: 2000px){
+    h1 {
+        font-size: 7rem !important;
+    }
+    h2{
+        font-size: 12rem !important;
+    }
+    h3{
+        font-size: 8rem !important;
+    }
+
+   .lista__ir{
+    font-size: 3rem;
+   }
+   .footer{
+    font-size: 2.5rem;
+    margin-top: 35rem;
+   }
+}
