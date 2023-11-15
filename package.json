@@ -5,7 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "test": "jest",
-    "start": "serve ./src",
+    "start": "serve src/",
     "deploy": "gh-pages -d src"
   },
   "repository": {
